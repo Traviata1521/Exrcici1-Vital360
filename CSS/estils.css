@@ -1,0 +1,1233 @@
+/*General*/
+
+*,
+*:before,
+*:after {
+    margin:0;
+    padding:0;
+}
+.container{
+    width: 100%; 
+    padding-left: 1rem;
+    padding-right: 1rem;           
+}
+.container-fluid{
+    width:100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+body{
+    font-family: "lato";
+    background-color: rgb(247, 247, 247);
+    color:rgb(0, 59, 74);
+}
+h1{
+    font-family: "Noto Serif";
+    font-size: 2.4rem;
+    width: 95%;
+    margin-top: 40px;
+    margin-bottom: 40px;   
+}
+h2{
+    font-family: "Noto Serif";
+    font-size: 1.5rem;
+    line-height: 1;
+    margin-top: 20px;
+}
+p{
+    width:90%;
+    text-align: left;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 25px;
+}
+a{ 
+    text-decoration: none;
+}
+img-fluid{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+/*header*/
+
+header{
+    background-color: rgb(255, 255, 255);
+    height:120px;
+    width:100%;     
+}
+.header{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo{
+    width: 100px;
+    height:auto;
+    display:flex;  
+    padding-top: 30px; 
+    float: left;
+    padding-left:1rem;
+}
+header nav ul{
+    padding-top: 50px; 
+    padding-right: 2.5rem;
+    width:200px;       
+}
+header nav ul li{
+    display:inline-block;
+    list-style: none;   
+}
+header nav ul li:first-child{
+    border-right: 2px solid rgb(0, 59, 74);
+    padding-right: 15px;
+}
+header nav ul li:last-child{
+    padding-left: 10px;    
+}
+header nav ul li a{
+    font-size: 1rem;
+    color: rgb(0, 59, 74);
+    font-weight: 900;
+}
+header nav ul li a:hover{
+    color: rgb(191, 12, 240)
+}
+header nav{
+    text-align: right;
+}
+
+
+/*footer*/
+
+footer{
+    background-color: rgb(0, 59, 74);
+    color: rgb(255, 255, 255);
+    width:100%; 
+    padding-bottom: 70px;  
+}
+footer p{
+    font-size: 0.7rem;
+    text-align: center;
+    margin-top: 20px;
+}
+footer ul li{
+    list-style: none;
+}
+.any{
+    border-right: 2px solid rgb(255, 255, 255);
+    padding-right: 10px;
+}
+.nom{
+    padding-left: 10px;
+}
+.logo1{
+    width: 100px;
+    height: auto;
+    padding-top: 30px;
+    padding-left: 37%;
+}
+.xarxes{
+    text-align: center;
+}
+.xarxes li{
+    display: inline;
+}
+.xarxes a{
+    width:30px;    
+}
+.xarxes a:hover{
+    opacity: 0.7;
+}
+footer img{
+    width: 20px;
+}
+.final{
+    text-align: center;
+    line-height: 1.5;
+    font-weight: normal;
+}
+.final a{
+    color: rgb(255, 255, 255);
+    font-size: 0.7rem;
+}
+.final a:hover{
+    color: rgb(229, 225, 254);
+}
+
+
+/*index.html*/
+
+.iniciindex{
+    background-image: url(../img/hero-image-home.jpg);
+    background-repeat: no-repeat;
+    width:100%;
+    height:520px;
+    background-size: cover;
+    background-position: center center; 
+    padding-left: 0;
+    padding-right: 0;
+}
+.inici{
+    font-size:3rem;
+    font-weight: 900;
+    padding-top: 40%;
+    padding-left: 1rem;
+    line-height: 1.2;
+    width: 90%;  
+}
+form{
+    width: 95%;
+    line-height: 2;
+}
+form li{ 
+    list-style: none;
+    font-size: 1rem;
+}
+label{
+    display: block;   
+}
+input{ 
+    height:30px;
+    width: 95%;
+    border-radius: 6px;
+    border-color: rgb(229, 225, 254);
+    font-size: 1rem;
+    padding-left: 5px;
+}
+.info{
+    margin-top: 25px;
+    font-size: 0.8rem;
+}
+.info a{
+    border-bottom: 1px dotted rgb(191, 12, 240);
+    color: rgb(191, 12, 240);
+}
+.info a:hover{
+    color: rgb(0, 59, 74);
+    border-bottom: 1px dotted rgb(0, 59, 74);
+}
+.condicions{
+    font-size: 0.8rem;
+    display: inline-block;
+}
+.check{
+    width: 12px;
+    height: 12px;
+    border-color: rgb(158, 157, 171);
+}
+.newsletter{
+    height:30px;
+    width: 280px;
+    border-radius: 6px;
+    background-color: rgb(0, 59, 74);
+    font-size: 1rem;
+    text-align: center;
+    color:rgb(255, 255, 255);
+    margin-top: 35px;
+    margin-bottom: 70px;
+}
+.newsletter:hover{
+    background-color: rgb(191, 12, 240);
+    cursor: pointer;
+}
+.index{
+    background-color: rgb(229, 225, 254);
+    padding-bottom: 140px;
+    padding-left: 0;
+    padding-right: 0;
+}
+.index p{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.img1, .img2{
+    width: 92%;
+    height:auto;
+    padding-top: 80px;   
+}
+figcaption{
+    font-size: 0.7rem;
+    text-align: right;
+    padding-right: 2rem;
+    line-height: 0.5;
+}
+.botó{
+    text-decoration: none;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    text-align: center;
+    border-radius: 6px;
+    background-color: rgb(0, 59, 74);
+    padding: 8px;
+    
+}
+.botó:hover{
+    background-color: rgb(191, 12, 240);
+}
+
+
+/*blog.html*/
+
+.blog{
+    background-color: rgb(247, 247, 247);
+    padding-bottom: 180px;
+}
+.blog img{
+    width: 100%;
+    height: auto;      
+}
+.box{
+    position:relative;
+}
+.categoria{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 59, 74);
+    padding:8px;
+    position: absolute;
+    top:10px;
+    left:10px;
+    font-size: 0.8rem;
+}
+.categoria:hover{
+    background-color: rgb(191, 12, 240);
+}
+.autor{
+    color: rgb(0, 59, 74);
+    background-color: rgb(229, 225, 254, 0.7);
+    padding: 5px;
+    font-size: 0.6rem;
+    position: absolute;
+    bottom: 12px;
+    right: 10px;
+}
+.box2{
+    background-color: rgb(255, 255, 255);
+    width: 92%;
+    height: auto;
+    border: 1px solid rgb(229, 225, 254); 
+    padding-bottom: 30px;
+    margin-bottom: 70px;
+}
+.box1 p:first-child{
+    color: rgb(158, 157, 171);
+    font-size: 0.9rem;
+    padding-top: 20px;    
+    padding-left: 1rem;
+}
+.box1 a:first-child{
+    color:rgb(0, 59, 74);
+    font-size: 1.7rem;
+    line-height: 1.2;
+    border-bottom: none;
+}
+.seguir{
+    color:rgb(191, 12, 240);
+    border-bottom: dotted rgb(191, 12, 240);
+    font-size: 1rem;
+    margin-left: 1rem;
+}
+.seguir:hover{
+    color: rgb(0, 59, 74);
+    border-bottom: dotted rgb(0, 59, 74);
+}
+.box1 h2{
+    margin-bottom: 15px;
+    margin-top: 10px;
+    padding-left: 1rem;
+    width: 90%;
+}
+.box1 h2 a:hover{
+    color: rgb(191, 12, 240);
+}
+.box1 p{
+    font-size: 1rem;
+    width:90%;
+    padding-left:1rem;
+
+}
+.blog ul{
+    text-align: center;
+    padding-top: 30px;
+}
+.blog ul li:first-child{
+    background-color: rgb(191, 12, 240);
+    padding: 9px 9px 9px 9px;
+    color: rgb(255, 255, 255);
+    font-size: 0.9rem;
+}
+.blog ul li{
+    display:inline;
+    margin-right: 15px;   
+}
+.blog ul li a{
+    color:rgb(0, 59, 74);
+    font-size: 0.9rem;  
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 59, 74);
+    padding: 8px 8px 8px 8px;
+}
+.blog ul li a:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(191, 12, 240);
+    padding: 9px 9px 9px 9px;
+    border: none;
+   
+}
+
+
+/*entrada.html*/
+
+.ruta{
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+.ruta li{
+    display:inline;
+    list-style: none;
+    color: rgb(0, 59, 74);
+    font-size: 0.9rem;
+}
+.ruta li a{
+    color: rgb(0, 59, 74);
+}
+.ruta li a:hover{
+    color: rgb(191, 12, 240);
+}
+.entrada{
+    background-color: rgb(255, 255, 255);
+    width:92%;
+    padding-bottom: 30px;
+    padding-top: 2.5%;
+    
+}
+.foto img{
+    width:100%;
+}
+.entrada p, .entrada blockquote{
+    font-size: 1rem;
+    width: 95%;
+    margin-left: 1rem;
+}
+.foto{
+    background-color: rgb(229, 225, 254);
+    width: 95%;
+    height: auto;
+    margin-left:2.5%;
+}
+.foto1 h1{
+    width:90%;
+    margin-bottom: 30px;
+    margin-left: 1rem;
+}
+.foto1 p{
+    font-size: 0.9rem;
+    color:rgb(158, 157, 171);
+    padding-bottom: 15px;
+    margin-left: 1rem;
+}
+.foto1 span{
+    color: rgb(0, 59, 74);
+}
+.paràgraf1 p{
+    font-size: 1.6rem;
+    width: 90%;
+    margin-top: 60px;
+    margin-bottom: 70px;
+    margin-left: 1rem;
+}
+.entrada h1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.entrada h2{
+    width:90%;
+    font-size: 1.8rem;
+    margin-top: 30px;
+    line-height: 1.3;
+    margin-bottom: 30px;
+    margin-left: 1rem;
+}
+.entrada li{
+    line-height: 1.5;
+    margin-left: 2rem;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    width: 90%;    
+}
+.cita{
+    border-left: 3px solid rgb(191, 12, 240);
+    margin-left: 1rem;
+}
+.cita blockquote{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 85%;
+}
+.entrada a{
+    color: rgb(191, 12, 240);
+    border-bottom: dotted rgb(191, 12, 240);
+}
+.entrada a:hover{
+    color: rgb(0, 59, 74);
+    border-bottom: dotted rgb(0, 59, 74);
+}
+aside li{
+    list-style: none;
+}
+aside img{
+    width: 100%;
+}
+aside h3{
+    font-size: 1.8rem;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+.lateral{
+    position: relative;
+}
+.lateral1{
+    background-color: rgb(255, 255, 255);
+    width: 92%;
+    height: auto;
+    margin-bottom: 40px;
+}
+.lateral .categoria{
+    left: 15px;
+}
+.lateral1 p{
+    color: rgb(158, 157, 171);
+    font-size: 0.9rem;
+    margin-left: 10px;
+    padding-bottom: 10px;
+}
+.lateral1 h4{
+    padding-left: 10px;
+    font-family: "Noto Serif";
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+.lateral1 h4 a{
+    font-size: 1.4rem;
+    color: rgb(0, 59, 74);   
+}
+.lateral1 h4 a:hover{
+    color: rgb(191, 12, 240);
+}
+.categories{
+    margin-bottom: 150px;
+}
+.categories li{
+    display: inline;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    list-style: none;
+}
+.categories li a{
+    color: rgb(0, 59, 74);
+    border: 1px solid rgb(0, 59, 74);
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    font-size: 0.8rem;
+}
+.categories li a:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(191, 12, 240);
+    padding: 6px;
+    border:none;
+}
+
+
+/*videos.html*/
+
+iframe.video-fluid {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16/9;
+    border: 0;
+}
+.containervideos div{
+    width: 92%;
+    height:auto;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(229, 225, 254);
+    margin-bottom: 40px;
+    padding-bottom: 10px;
+}
+.containervideos div:last-child{
+    margin-bottom: 140px;
+}
+.containervideos iframe{
+    width:100%;
+    height:auto;
+    aspect-ratio: 16/9;
+    border: 0;
+
+}
+.containervideos h2{
+    margin-bottom: 10px;
+    line-height: 1.3;
+    width: 90%;
+    margin-left: 1rem;
+}
+.containervideos p{
+    width:90%;
+    margin-left: 1rem;
+}
+
+
+/*Canvis per a dispositius mitjans*/
+
+@media (min-width: 768px) {
+
+    /*General*/
+    p{
+        width: 95%;        
+    }
+
+
+    /*footer*/
+
+    .logo1{
+        padding-left: 43%;   
+    }   
+
+
+    /*index.html*/
+
+    .inici{
+        font-size:2.7rem;
+        padding-top: 25%; 
+    }
+    input{ 
+        width: 70%;  
+    }
+    .info{ 
+        width: 70%;
+    }
+    .img1{
+        width:220px;
+        height:auto;
+        transform: rotate(-5deg);
+        padding-top: 70px;  
+        margin-bottom: 1px;   
+        margin-left: 1rem;
+    }
+    .img2{
+        width: 220px;
+        height:auto;
+        transform: rotate(5deg);
+        padding-top: 70px;    
+        margin-bottom: 1px;
+        margin-right: 2rem;
+    }
+    .pag1{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .pag2{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .pag1_2, .pag2_2{
+        display: block;
+    }
+    .index p{
+        width: 80%;
+    }
+    .pag1_2 h2, .pag1_2 p{
+        margin-left: 2rem;
+    }
+    .pag1_2 .botó{
+        margin-left:2rem;
+    }
+    .peu1{
+        transform: rotate(-5deg);
+        font-size: 0.7rem;
+        text-align: right;  
+        
+    }
+    .peu2{
+        transform: rotate(5deg);
+        font-size: 0.7rem;
+        text-align: right;
+        padding-right: 3rem;
+    }
+
+   
+    /*blog.html*/
+
+    .blog1{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 20px; 
+    }
+    .box2{
+        width: 90%;
+        height:600px;    
+    }
+    .box1 p{
+        width:95%;
+    }
+    .box2{
+        display:block;   
+    }
+    .blog ul{
+        text-align: center;
+    }
+    
+
+    /*entrada.html*/
+
+    .entrada{
+        width:96%;
+    }
+    aside img{
+        width: 100%;
+    }
+    .lateral1{
+        width: 230px;
+        height: 280px;      
+    }
+    .lateral1:last-child, .lateral1:nth-child(2){
+        margin-right: 2.2rem;
+    }
+    .articles ul li{
+        display: inline-flex;
+    }
+    .lateral1 h4 a{
+        font-size: 1.2rem;
+    }
+    .lateral1 p{
+        font-size: 0.8rem;
+        width:90%;
+    }
+
+
+    /*videos.html*/
+
+    .containervideos{
+        width:96%;
+        display: grid;
+        grid-template-areas: 
+        "v1 v2"
+        "v3 v4"
+        "v5 v6";
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 20px;
+        row-gap: 30px ;
+    }
+    .v1{
+        grid-area: v1;
+    }
+    .v2{
+        grid-area: v2;
+        margin-right: 1rem;
+    }
+    .v3{
+        grid-area: v3;
+    }
+    .v4{
+        grid-area: v4;
+        margin-right: 1rem;
+    }
+    .v5{
+        grid-area: v5;
+    }
+    .v6{
+        grid-area: v6;
+        margin-right: 1rem;
+    }
+    .containervideos div{
+        width:100%;
+        height:auto;
+    }
+    .containervideos div:nth-child(5), .containervideos div:last-child{
+        margin-bottom: 60px;
+    } 
+}
+
+
+
+/*Canvis per a dispositius grants*/
+
+@media (min-width: 992px){
+
+    /*General*/
+
+    .container-fluid{
+        padding-left: 4rem;
+        padding-right: 4rem ;
+    }
+    h1{
+        font-size: 2.2rem;
+        margin-top: 30px;
+        margin-bottom: 25px;
+        margin-left: 200px;  
+    }
+    h2{
+        font-size: 1.4rem;
+    }
+    p{
+        font-size: 0.9rem; 
+        width:360px;  
+        margin-bottom: 15px;     
+    }
+
+
+    /*header*/
+
+    header{
+        height:120px;   
+    }
+    .logo{
+        width:100px;
+    }
+    header nav ul li a{
+        font-size: 0.8rem;
+    }
+
+
+    /*footer*/
+    footer{
+        padding-bottom: 50px;
+    }
+    .footer{  
+        display: flex;
+        flex-direction: row;   
+        justify-content: space-between;
+    }
+    
+    .footer2{
+        padding-top: 50px;   
+    }
+    .logo1{
+        padding-left: 40px;
+        width:75px;
+        padding-top: 30px;
+    }     
+    footer p{
+        font-size: 0.6rem;
+        text-align: left;
+        margin-top: 10px;
+        padding-left: 35px;
+    }
+    footer img{
+        width: 25px;
+        margin-bottom: 10px;  
+    }
+    .xarxes{
+        text-align: right;
+        padding-right: 40px;
+    }
+    .final li{
+        display:inline;
+        padding-right: 35px;  
+    }
+    .final li:first-child{
+        border-right: 2px solid rgb(255, 255, 255);
+        padding-right: 10px;
+    }
+    .final li:last-child{
+        border-left: 2px solid rgb(255, 255, 255);
+        padding-left: 10px;
+    }
+    .final li:nth-child(2){
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .final a{
+        font-size: 0.6rem;
+        display:inline;
+    }
+
+    /*index.html*/
+
+    .iniciindex{
+        height:380px;
+    }
+    .inici{
+        font-size:3rem;
+        width:40%;
+        height:260px;
+        padding-left: 300px;
+        padding-top: 10%;
+    }
+    
+    .part2{
+        display: flex;  
+        width: 60%; 
+        justify-content: center;
+        margin-left: 240px;
+    }
+    .part2_1{
+        flex:1;   
+    }
+    .part2_2{
+        flex:1;
+        margin-left: 50px;
+    }
+    form{
+        width:350px;  
+    }
+    form li{ 
+        font-size: 0.7rem;
+        margin-bottom: 10px;
+    }
+    .info, form div{
+        font-size: 0.6rem;
+    }
+    .info{
+        width: 360px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    input{ 
+        height:25px;
+        width: 360px;
+        font-size:0.7rem;
+    }
+    .condicions{
+        font-size: 0.6rem;        
+    }
+    .check{
+        width: 10px;
+        height: 10px;
+    }
+    .newsletter{
+        height:25px;
+        width: 210px;
+        font-size: 0.7rem;
+        margin-top: 15px;  
+    }  
+    .index .container{
+        width: 100%;
+        padding-left:0;
+        padding-right:0;
+    }
+    .pag1{
+        padding-left: 150px;
+        padding-right: 120px;
+    }
+    .pag2{
+        padding-left: 180px;
+        padding-right: 150px;
+    }
+    .pag1_2, .pag2_2{
+        margin-top: 30px;
+    }
+    .img1, .img2{
+        width: 210px;
+    }
+    .peu1, .peu2{
+        font-size: 0.6rem;
+    }
+    .index p{
+        margin-top: 15px;
+        margin-bottom: 25px;
+        width: 500px;
+        font-size: 1rem;
+    }
+    .botó{  
+        font-size: 0.7rem;
+        padding: 8px;
+    }
+
+
+    /*blog.html*/
+
+    .blog h1{
+        margin-left: 0;
+        padding-left: 0;
+    }
+    .blog1{
+        display:grid;
+        grid-template-areas: 
+        "b1 b1 b2 b3"
+        "b4 b5 b6 b7";
+        grid-template-columns: repeat(4, 1fr);
+        column-gap: 2rem;
+        row-gap:20px;  
+    }
+    h2 a{
+        font-size: 1.4rem;
+    }
+    .blog1 .box2:first-child{
+        width: 100%;
+        grid-area: b1;
+    }
+    .blog1 .box2:nth-child(2){
+        grid-area: b2;
+        width: 100%; 
+    }
+    .blog1 .box2:nth-child(3){
+        grid-area: b3;
+        width: 100%;
+    }
+    .blog1 .box2:nth-child(4){
+        grid-area: b4;
+        width: 100%;
+    }
+    .blog1 .box2:nth-child(5){
+        grid-area: b5;
+        width: 100%;
+    }
+    .blog1 .box2:nth-child(6){
+        grid-area: b6;
+        width: 100%;
+    }
+    .blog1 .box2:nth-child(7){
+        grid-area: b7;
+        width: 100%;
+    }
+    .box img{
+        width: 100%;   
+        position: relative;
+    }
+    .box2{
+        width:100%; 
+        height:auto;
+        margin-left: 0;
+        margin-bottom:10px;
+    }
+    .box1 p{
+        width:220px;
+        font-size: 0.8rem;
+    }
+    .box1 .pb{
+        width: 440px;
+    }
+    .categoria{
+        padding:6px;
+        font-size: 0.6rem;
+        top:10px;
+        left:10px;
+    }
+    .autor{
+        font-size: 0.5rem;
+        padding: 5px;
+        right:10px;
+        bottom: 10px;  
+        position: absolute; 
+    } 
+    .box1 p:first-child{
+        color: rgb(158, 157, 171);
+        font-size: 0.6rem;
+        padding-top: 10px;    
+    }
+    .box1 a:first-child{
+        color:rgb(0, 59, 74);
+        font-size: 1.6rem; 
+    }
+    .seguir{
+        font-size: 0.8rem;   
+    }
+    .blog ul{
+        text-align: center;
+    }
+    .blog ul li a{
+        font-size:0.8rem;
+        padding: 7px 5px 7px 5px;
+    }
+    .blog ul li:first-child{
+        padding: 7px 5px 7px 5px;
+        font-size: 0.8rem;
+    }
+    .blog ul li{
+        margin-right: 5px;   
+    }
+    .blog ul li a:hover{
+        color: rgb(255, 255, 255);
+        padding: 7px 5px 7px 5px;
+    }
+
+
+    /*entrada.html*/
+
+    
+    .entrada{
+       width:100%;
+       margin-left: 130px;
+    }
+    .ruta{
+        margin-left: 130px;
+    }
+    .foto img{
+        width:100%;
+    }
+    .entrada p{
+        width: 95%;
+        font-size: 0.9rem;
+    }
+    .foto{
+        width:95%;
+    }
+    .foto1 h1{
+        width:95%;
+        font-size: 1.8rem;
+        margin-left: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .foto1 p{
+        font-size: 0.8rem;
+        padding-bottom: 10px;
+        width: 92%;
+    }  
+    .paràgraf1 p{
+        width: 92%;
+        font-size: 1.2rem;
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+    .entrada h2{
+        width:92%;
+        font-size: 1.4rem;        
+        margin-bottom: 10px;
+    }
+    .entrada li{
+        width: 85%;  
+        font-size: 0.9rem; 
+        margin-left: 30px; 
+    }
+    .cita{
+        margin-left: 40px;
+    }
+    .cita blockquote{
+        width: 85%;
+        font-size: 1.2rem;
+        margin-left: 1.5rem;
+    }
+    .cita p{
+        margin-left:1.5rem;
+    }
+    .lateral img{
+        width: 100%;
+    }
+    .lateral1{
+        width: 40%;
+        height: auto;   
+        display: block;
+        margin-bottom: 20px;
+        margin-left:12rem;
+    }
+    aside h3{
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+        margin-top: 110px;
+        margin-left: 12rem;
+    }
+    .lateral1 h4{
+        padding-top: 3px;
+        margin-bottom: 3px;
+    }
+    .lateral1 h4 a{
+        font-size: 0.9rem;
+    }
+    .lateral1 p{
+        font-size:0.6rem;
+        width: 95%;
+        padding-bottom: 3px;
+    }
+    .categories{
+        width: 40%;
+        margin-left: 12rem;
+        }
+    .categories li{
+        display:inline-flex;
+        margin-bottom: 5px;
+        margin-right: 5px;
+    }
+    .categories li a{
+        font-size: 0.6rem;
+        padding:5px;
+    }
+    .containerentrada{
+        display: grid;
+        grid-template-areas: 
+        "col1_1 col1_2";
+    }
+    .entrada1{
+        grid-area: col1_1;
+        margin-left: 50px;
+        margin-bottom: 80px;
+    }
+    .articles{
+        display:block;
+    }
+    .aside{
+        grid-area: col1_2;
+    }
+
+
+    /*videos.html*/
+
+    .containervideos{
+        display: grid;
+        grid-template-areas: 
+        "v1 v2 v3"
+        "v4 v5 v6";
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 20px;
+        row-gap: 10px ;
+    }
+    .v1{
+        grid-area: v1;
+    }
+    .v2{
+        grid-area: v2;
+    }
+    .v3{
+        grid-area: v3;
+    }
+    .v4{
+        grid-area: v4;
+    }
+    .v5{
+        grid-area: v5;
+    }
+    .v6{
+        grid-area: v6;
+    }
+    .videos{
+        margin-left: 0;
+    }
+    .containervideos div{
+        width:100%;
+        height:400px;
+    }
+    .containervideos iframe{
+        width:100%;
+        height:auto;
+    }
+    .containervideos h2{
+        width:90%;
+    }
+    .containervideos p{
+        width:90%;
+    }    
+}
+
+
+/*Dispositius molt grans*/
+
+@media (min-width: 1200px){
+    .container{
+        max-width: 1140px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+
+   
+
